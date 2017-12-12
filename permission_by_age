@@ -1,0 +1,8 @@
+age = input("how old are you:")
+age = int(age)
+if age >= 18 and age <= 90:
+   print ("welcome")
+elif age <= 0:
+  print("No way")
+else:
+  print ("sorry")
